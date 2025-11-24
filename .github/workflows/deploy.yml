@@ -36,6 +36,9 @@ jobs:
       - name: Install pnpm
         run: npm install -g pnpm
 
+      - name: Install dependencies
+        run: pnpm install
+
       - name: Run CI checks
         run: deno task ci
         env:
