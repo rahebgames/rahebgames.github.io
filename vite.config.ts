@@ -1,6 +1,10 @@
 import { defineConfig } from "vite";
 
+const repoName = process.env.REPO_NAME;
+const base = repoName ? `/${repoName}/` : "/";
+
 export default defineConfig({
+  base,
   root: "src",
   publicDir: "../public",
   build: {
