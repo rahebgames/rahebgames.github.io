@@ -33,6 +33,9 @@ jobs:
         with:
           deno-version: v2.x
 
+      - name: Install pnpm
+        run: npm install -g pnpm
+
       - name: Run CI checks
         run: deno task ci
         env:
