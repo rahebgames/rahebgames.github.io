@@ -5,4 +5,4 @@ function greeter(person: string) {
 const user = "Jane User";
 
 document.body.textContent = greeter(user);
-document.body.textContent = "WIP";
+document.body.textContent = "WIP ";
