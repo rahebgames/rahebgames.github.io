@@ -1,4 +1,0 @@
-enum Tags {
-  DESIGN,
-  PROGRAMMING,
-}
